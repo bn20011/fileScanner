@@ -1,0 +1,5 @@
+fileID, operationID, comments
+111, 11, "sort Asc" 
+222, 21, "create unique list of words from the given text"
+111, 15, "find max value"
+111, 16, "find min value"

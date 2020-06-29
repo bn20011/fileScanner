@@ -1,0 +1,21 @@
+{
+ID, sortingType
+1, sorting ascending
+2, sorting descending
+}
+
+{
+ID, operationType
+11, remove duplicates
+12, count number of values
+14, find int value
+15, get Max value
+16, get Min value
+}
+
+{
+ID, groupOperations, description
+}
+
+
+

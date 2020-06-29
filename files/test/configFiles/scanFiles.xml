@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<files>
+<file fileID=1 type="csv">
+<title>integers</title>
+<path>\\files\\todoFiles\\integers.txt</path>
+<description>demo list</description>
+<sortID>1</sortID>
+<operationID>12<>
+</files>
