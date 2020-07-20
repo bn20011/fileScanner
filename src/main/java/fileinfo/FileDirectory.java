@@ -44,18 +44,15 @@ public class FileDirectory {
     }
 
     private void setDirToDo(){
-             File dirToDo = new File(dirToDoFiles);
-             this.dirToDo = dirToDo;
+             this.dirToDo = new File(dirToDoFiles);
     }
 
     private void setDirDone(){
-        File dirDone = new File(dirDoneFiles);
-        this.dirDone = dirDone;
+        this.dirDone = new File(dirDoneFiles);
     }
 
     private void setDirConfig(){
-        File dirConfig = new File(dirConfigFile);
-        this.dirConfig = dirConfig;
+        this.dirConfig = new File(dirConfigFile);
     }
 
     public File getDirToDo(){
@@ -67,7 +64,7 @@ public class FileDirectory {
     }
 
     private void setConfigFile(){
-        String pathFileConfig = dirConfigFile + configFileName;
+        String pathFileConfig =dirConfigFile + configFileName ;
         fileConfig = new File(pathFileConfig);
     }
 
